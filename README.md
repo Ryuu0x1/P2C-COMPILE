@@ -14,24 +14,35 @@ This helps protect source code and improve performance.
 
 ### 📱 Termux
 ```
-pkg update && pkg upgrade -y
-pkg install python git clang python-dev libffi-dev -y
-pip install --upgrade pip setuptools wheel cython
+pkg update
+pkg upgrade
+pkg install python
+pkg install git
+pip install pycurl
+pip install bs4
+pkg install clang
+pkg install python-dev
+pkg install libffi-dev
+pip install --upgrade setuptools
+pip install --upgrade wheel
+pip install cython
 ```
 
 ### 🐧 Linux (Ubuntu / Debian)
-Update & upgrade packages :
-```
-sudo apt update && sudo apt upgrade -y
-```
-
-Install Rquired Dpendencies :
-```
-sudo apt install python3 python3-pip git clang python3-dev libffi-dev -y
-```
-Upgrade pip, setuptools, wheel and install Cython :
-```
-pip3 install --upgrade pip setuptools wheel cython
+``|
+sudo apt update
+sudo apt upgrade
+sudo apt install python3
+sudo apt install python3-pip
+sudo apt install git
+sudo apt install clang
+sudo apt install python3-dev
+sudo apt install libffi-dev
+pip3 install pycurl
+pip3 install bs4
+pip3 install cython
+pip3 install --upgrade setuptools
+pip3 install --upgrade wheel
 ```
 
 ### 🪟 Windows
@@ -39,21 +50,27 @@ pip3 install --upgrade pip setuptools wheel cython
 (Make sure to tick ✅ "Add Python to PATH" during installation).
 - Open Command Prompt or PowerShell and run :
 ```
-pip install --upgrade pip setuptools wheel cython
+pip install pycurl
+pip install bs4
+pip install cython
+pip install --upgrade setuptools
+pip install --upgrade wheel
 ```
 
 ### 🍏 macOS
 Update & upgrade Homebrew (if installed) :
 ```
-brew update && brew upgrade
-```
-Install required dependencies :
-```
-brew install python git llvm libffi
-```
-Upgrade pip, setuptools, wheel and install Cython :
-```
-pip3 install --upgrade pip setuptools wheel cython
+brew update
+brew upgrade
+brew install python
+brew install git
+brew install clang
+brew install libffi
+pip3 install pycurl
+pip3 install bs4
+pip3 install cython
+pip3 install --upgrade setuptools
+pip3 install --upgrade wheel
 ```
 
 ---
