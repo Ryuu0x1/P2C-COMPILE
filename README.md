@@ -29,7 +29,7 @@ pip install cython
 ```
 
 ### 🐧 Linux (Ubuntu / Debian)
-``|
+```
 sudo apt update
 sudo apt upgrade
 sudo apt install python3
